@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:8003", // Backend URL
+        target: "https://aiml-departmental-website-backend.onrender.com", // Backend URL
         changeOrigin: true,
         secure: false,
       },
